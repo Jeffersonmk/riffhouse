@@ -1,0 +1,46 @@
+/* reset essencial */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #C4C4C4;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    background-color: #FAFAFA;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header-social-links a {
+    cursor: pointer;
+}
+
+.contact-header p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
