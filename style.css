@@ -67,3 +67,60 @@ body {
     opacity: 0.6;
     cursor: pointer;
 }
+
+.header {
+    margin: 50px 120px 0 120px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+
+.account-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.account-menu p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 81px;
+    height: 81px;
+}
+
+.logo > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-header input {
+    width: 432px;
+    height: 32px;
+}
+
+.duvida-nav img {
+    width: 100px;
+    height: 25px;
+}
+
+.login-menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.carrinho-de-compra img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
