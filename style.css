@@ -37,6 +37,7 @@ body {
     cursor: pointer;
 }
 
+
 .contact-header p {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
@@ -52,6 +53,46 @@ body {
     border-radius: 20px;
 }
 
+.header {
+    padding: 50px 120px 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.account-menu {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-menu p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.logo img {
+    width: 81px;
+    height: 81px;
+}
+
+.logo > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .search-header {
     position: relative;
     display: inline-block;
@@ -64,48 +105,19 @@ body {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    opacity: 0.6;
     cursor: pointer;
-}
-
-.header {
-    margin: 50px 120px 0 120px;
-    margin-top: 50px;
-    display: flex;
-    margin-left: 120px;
-    justify-content: space-between;
-}
-
-.account-menu {
-    display: flex;
-    gap: 40px;
-}
-
-.account-menu p {
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.logo img {
-    width: 81px;
-    height: 81px;
-}
-
-.logo > div {
-    display: flex;
-    flex-direction: column;
 }
 
 .search-header input {
+    padding-left: 30px ; /* espaço pro ícone */
     width: 432px;
-    height: 32px;
+    height: 31px;
+    border: none;
+    font-family: "Kanit", sans-serif;
 }
 
 .duvida-nav img {
-    width: 100px;
+    width: 25px;
     height: 25px;
 }
 
@@ -118,6 +130,53 @@ body {
     width: 25px;
     height: 25px;
 }
+
+.account-menu p {
+    cursor: pointer;
+}
+
+.account-menu img {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.account-menu > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo span {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    color: #F24822;
+}
+
+.logo h1, 
+.logo p {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    color: #C4C4C4;
+}
+
+.logo h1 {
+    display: flex;
+    font-size: 45px;
+}
+
+.logo p {
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+
+
+
 
 
 
