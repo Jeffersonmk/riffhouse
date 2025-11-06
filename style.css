@@ -210,6 +210,35 @@ body {
     flex-shrink: 0; /* impede que redimensionem */
 }
 
+.ad-header {
+    display: flex;
+    margin: 30px 30px 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.ad-header > div {
+    display: flex;
+    gap: 20px;
+}
+
+.ad-header > div p span {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.ad-header > div p {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+
 
 
 
