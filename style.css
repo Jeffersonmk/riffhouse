@@ -239,10 +239,11 @@ body {
 
 .exclusive-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 510px 280px 280px;
     grid-template-rows: 1fr 1fr;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 30px 0 30px;
+    justify-content: center;
+    gap: 60px;
 }
 
 .destaque {
@@ -256,6 +257,7 @@ body {
     font-weight: 800;
     font-style: normal;
     text-shadow: 2px 1px #D9D9D9;
+    font-size: 60px;
 }
 
 .destaque h2 {
@@ -263,6 +265,8 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #FFFFFF;
+    font-size: 33px;
+    text-shadow: 2px 1px black;
 }
 
 .card {
@@ -281,6 +285,22 @@ body {
     margin-top: 60px;
     text-align: center;
     font-size: 70px;
+}
+
+.destaque button {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    width: 376px;
+    height: 73px;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    gap: 10px; 
+}
+
+.destaque button span {
+    margin-left: 10px;
 }
 
 
