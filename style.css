@@ -286,7 +286,6 @@ body {
     color: #F24822;
     text-shadow: 2px 1px black;
     font-size: 20px;
-    display: flex;
 }
 
 .comum h2 {
@@ -341,6 +340,34 @@ body {
 .comum h1,
 .comum h2 {
     text-align: right;
+    margin-right: 15px;
+}
+
+.comum button {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    width: 214px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card.comum {
+    position: relative;      /* referência pro botão */
+    padding-bottom: 80px;    /* reserva espaço pro botão */
+}
+
+.card.comum button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* centraliza o botão */
+    bottom: 20px;                /* distancia do fundo do card */
 }
 
 
