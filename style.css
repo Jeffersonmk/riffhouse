@@ -370,7 +370,9 @@ body {
     bottom: 20px;                /* distancia do fundo do card */
 }
 
-.destaques h1 {
+.destaques h1,
+.encomendas h1,
+.depoimentos h1 {
     font-family: "Karantina", system-ui;
     font-weight: 700;
     font-style: normal;
@@ -379,14 +381,16 @@ body {
     font-size: 70px;
 }
 
-.card-destaques h1 {
+.card-destaques h1,
+.card-encomendas h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
 }
 
-.destaques-grid {
+.destaques-grid,
+.encomendas-grid {
     display: grid;
     grid-template-columns: repeat(3, 394px);
     grid-template-rows: repeat(2, 450px);
@@ -394,7 +398,8 @@ body {
     gap: 50px;
 }
 
-.card-destaques {
+.card-destaques,
+.card-encomendas {
     border-radius: 20px;
     background-color: #FDFDFD;
     border: 2px solid black;
@@ -407,7 +412,8 @@ body {
 }
 
 
-.card-destaques > img {
+.card-destaques > img,
+.card-encomendas > img {
     display: block;
     margin: 0 auto;
 }
@@ -433,7 +439,8 @@ body {
     margin-top: -15px;
 }
 
-.card-destaques h1 {
+.card-destaques h1,
+.card-encomendas h1 {
     text-transform: uppercase;
 }
 
@@ -448,8 +455,7 @@ body {
     text-align: center;
 }
 
-.categorias h1,
-.encomendas h1 {
+.categorias h1 {
     font-family: "Karantina", system-ui;
     font-weight: 700;
     font-style: normal;
@@ -492,6 +498,7 @@ body {
 .encomendas {
     text-align: center;
 }
+
 
 
 
