@@ -398,6 +398,7 @@ body {
     border-radius: 20px;
     background-color: #FDFDFD;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .estrelas {
@@ -442,6 +443,55 @@ body {
     font-family: "Kanit", sans-serif;
     text-align: center;
 } 
+
+.categorias {
+    text-align: center;
+}
+
+.categorias h1,
+.encomendas h1 {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.instrumentos {
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 344px;
+    gap: 100px;
+}
+
+.instrumentos-icon {
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: solid 4px #FF2F00;
+    padding-top: 15px;
+}
+
+.instrumentos-categorias-card p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: #F24822;
+    text-shadow: 2px 2px 0 black;
+}
+
+
+.instrumentos-categorias-card {
+    cursor: pointer;
+}
+
+.encomendas {
+    text-align: center;
+}
 
 
 
