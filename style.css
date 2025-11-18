@@ -490,7 +490,6 @@ body {
     text-shadow: 2px 2px 0 black;
 }
 
-
 .instrumentos-categorias-card {
     cursor: pointer;
 }
@@ -499,7 +498,52 @@ body {
     text-align: center;
 }
 
+.depoimentos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 410px);
+    grid-template-rows: repeat(2, 216px);
+    justify-content: center;
+    gap: 100px;
+}
 
+.conteudo-depoimentos > p {
+    font-family: "Kreon", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-depoimentos p {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+.card-depoimentos {
+    height: 200px;
+    width: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.cta-ofertas {
+    display: flex;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+}
 
 
 
