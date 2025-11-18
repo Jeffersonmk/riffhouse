@@ -537,13 +537,46 @@ body {
     display: flex;
 }
 
+.ofertas h1 {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.ofertas p {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .mail {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     gap: 40px;
+    background-color: #FF2F00;
 }
+
+.mail input {
+    width: 434px;
+    height: 56px;
+    border-radius: 20px;
+}
+
+.mail button {
+    width: 273px;
+    height: 54px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kreon", serif;
+    cursor: pointer;
+}
+
 
 
 
