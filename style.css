@@ -535,6 +535,12 @@ body {
 
 .cta-ofertas {
     display: flex;
+    gap: 10px;
+}
+
+.cta-ofertas img {
+    margin-top: 18px;
+    height: 75px;
 }
 
 .ofertas h1 {
@@ -548,6 +554,8 @@ body {
     font-family: "Kreon", serif;
     font-weight: 600;
     font-size: 20px;
+    margin-top: -25px;
+    margin-left: 80px;
 }
 
 .mail {
@@ -560,6 +568,9 @@ body {
 }
 
 .mail input {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    font-size: 20px;
     width: 434px;
     height: 56px;
     border-radius: 20px;
@@ -576,10 +587,6 @@ body {
     font-family: "Kreon", serif;
     cursor: pointer;
 }
-
-
-
-
 
 
 
