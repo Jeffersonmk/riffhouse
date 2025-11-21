@@ -588,6 +588,68 @@ body {
     cursor: pointer;
 }
 
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+footer p {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.institucional ul {
+    list-style-type: none;
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: -40px;
+}
+
+.atendimento ul {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px;
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+
+.institucional h1,
+.atendimento h1, 
+.redes-sociais h1 {
+    font-family: "Kreon", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.logos img {
+    width: 41px;
+    height: 41px;
+    cursor: pointer;
+}
+
+#contact-mail {
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 10px;
+}
 
 
 
