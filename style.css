@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 
-body {
+body { 
     background-color: #C4C4C4;
 }
 
@@ -425,7 +425,8 @@ body {
 }
 
 .desconto-preco {
-    font-weight: bold;
+    font-weight: 500;
+    text-decoration: line-through
 }
 
 .preco-final {
@@ -651,7 +652,15 @@ footer {
     padding-top: 10px;
 }
 
+.instrument-card {
+    padding-top: 10px;
+    width: auto;
+    height: 200px;
+}
 
+.interface {
+    width: 10px;
+}
 
 
 
