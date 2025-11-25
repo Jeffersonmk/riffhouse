@@ -482,6 +482,12 @@ body {
     padding-top: 15px;
 }
 
+.instrumentos-icon img {
+    width: 80%;
+    height: 90%;
+    object-fit: contain;
+}
+
 .instrumentos-categorias-card p {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
@@ -658,9 +664,6 @@ footer {
     height: 200px;
 }
 
-.interface {
-    width: 10px;
-}
 
 
 
