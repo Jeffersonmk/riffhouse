@@ -411,13 +411,11 @@ body {
     justify-content: center;
 }
 
-
 .card-destaques > img,
 .card-encomendas > img {
     display: block;
     margin: 0 auto;
 }
-
 
 .desc-preco {
     font-weight: 500;
@@ -631,7 +629,6 @@ footer p {
     font-size: 16px;
     list-style-type: none;
     margin-left: -40px;
-
 }
 
 .institucional h1,
@@ -642,7 +639,6 @@ footer p {
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
 
 .logos img {
     width: 41px;
